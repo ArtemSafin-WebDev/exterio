@@ -1,0 +1,15 @@
+.disabled_filter .filter__label {
+  color: #9a9899;
+}
+.disabled_filter .select,
+.disabled_filter .select__placeholder,
+.disabled_filter .select > ul {
+  border-color: #9a9899;
+}
+.gallery__main__items-composition .gallery__favorite:before,
+.gallery__main__items-composition .gallery__zoom:before {
+  color: #aeaeae;
+}
+.gallery__main__items-composition .gallery__buttons {
+  top: 40%;
+}

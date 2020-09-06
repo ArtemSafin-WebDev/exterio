@@ -226,12 +226,20 @@
                       <span class="catalog__item__labels">
                         <span class="catalog__item__label">НОВИНКА</span>
                       </span>
-                      <span
+                      <!-- <span
                         class="catalog__item__image"
                         style="
                           background-image: url('https://381208.selcdn.ru/exterio/netcat_files/5/72/amulet_cover.jpg');
                         "
-                      ></span>
+                      ></span> -->
+
+                      <picture>
+                        <source srcset="https://381208.selcdn.ru/exterio/netcat_files/5/72/amulet_cover.jpg 670w" type="image/webp">
+                        <source srcset="https://381208.selcdn.ru/exterio/netcat_files/5/72/amulet_cover.jpg 670w" type="image/jpeg"> 
+                        <img src="https://381208.selcdn.ru/exterio/netcat_files/5/72/amulet_cover.jpg" sizes="(max-width: 766px) 100vw, (max-width: 1278px) 33vw,
+                        (max-width: 1300px) 25vw,
+                        20vw" alt="Alt Text!" class="catalog__item__image">
+                      </picture>
                       <span class="catalog__item__content">
                         <span class="catalog__item__table">
                           <span class="catalog__item__row">
